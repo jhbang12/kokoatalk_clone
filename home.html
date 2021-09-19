@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            height: 1000vh;
+        }
+        div {
+            background-color: antiquewhite;
+            border-radius: 5px;
+            border-style: solid;
+            padding: 50px;
+            width:fit-content;
+            position: fixed;
+        }
+        button:hover {
+            background-color: lightslategray;
+            color:lawngreen;
+        }
+        button:focus {
+            background-color: magenta;
+            color:magenta;
+        }
+        p {
+            font-style: italic;
+            font-size: 10pt;
+            text-align: center;
+        }
+        p::selection {
+            background-color: mediumaquamarine;
+        }
+    </style>
+    <link rel="shortcut icon" href="https://aadcdn.msftauth.net/shared/1.0/content/images/favicon_a_eupayfgghqiai7k9sol6lg2.ico">
+    <title>Practice HTML</title>
+</head>
+<body>
+    <div>
+        <input placeholder="Name" type="text" required />
+        <span> & </span>
+        <input placeholder="Age" type="text" required />
+        <button type="button">Submit</button>
+        <p>Have a Nice Day!</p>
+        &copy; 2021.09.18
+    </div> 
+</html>
